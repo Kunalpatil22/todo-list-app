@@ -73,10 +73,10 @@ MONGODB_URI=<your_mongodb_uri_string>
 Create a `.env` file in your `client` folder and define the following variable.
 
 ```
-API_PROXY_URL='http://localhost:5000'
+API_PROXY_URL=<your_desired_server_url>
 ```
 
-> This will ensure that your client will use the above URL for making API requests.
+> This will ensure that your client will use the above URL for making API requests. Usually, It will be your server URL.
 
 ### Start the development server
 
